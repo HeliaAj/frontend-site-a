@@ -44,6 +44,19 @@ h2{
   align-items: center;
   justify-content: center;
 }
+.image-placeholder2 {
+  width: 50%;
+  height: 180px;
+  background-color: #ddd;
+  border-radius: 8px;
+  margin: 0 auto 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+
+}
 
 button {
   padding: 8px 16px;

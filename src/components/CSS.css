@@ -13,6 +13,15 @@ footer {
   align-items: center;
 
 }
+.head-link {
+ text-decoration: none;
+ display: flex;
+ transition: all 0.3s ease;
+}
+.head-link:hover {
+ transform: scale(1.17);
+  transition: all 300ms ease-in-out;
+}
  
 
 .nav-links {

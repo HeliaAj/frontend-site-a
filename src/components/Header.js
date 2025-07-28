@@ -6,11 +6,13 @@ const Header = () => {
   return (
     
     <header className="header">  
-      
-       <h2 className="head"> مانو دیزاین </h2>
+       <Link to="/" className="head-link">
+      <h2 className="head">مانو دیزاین</h2>
+    </Link>
+       
        
        <nav className="nav-links">
-        <Link to="/" className="nav-link">خانه</Link>
+        
         <Link to="/cart" className="nav-link">سبد خرید</Link>
         <Link to="/add-product" className="nav-link">افزودن محصول</Link>
         <Link to="/login" className="nav-link">ورود</Link>
