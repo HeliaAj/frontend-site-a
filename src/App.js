@@ -8,6 +8,7 @@ import AddProduct from "./pages/AddProduct";
 import Login from "./pages/Login";
 import Header from "./components/Header"
 import Footer from "./components/Footer";
+import HomePage from "./pages/Home";
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
     <Router> 
       <Header /> 
       <Routes>
-        <Route path="/" element={<ProductList />} />
+        <Route path="/" element={<HomePage/>} />
+        <Route path="/products" element={<ProductList/>} />
         <Route path="/product/:id" element={<ProductPage />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/add-product" element={<AddProduct />} />
